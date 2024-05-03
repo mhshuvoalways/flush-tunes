@@ -35,9 +35,9 @@ const Footer = () => {
             © 2024 | Schitz N’ Giggles LLC. All rights are reserved.
           </p>
           <div className="flex items-center gap-10 absolute right-5">
-            <Image src={Fb} alt="" />
-            <Image src={Twitter} alt="" />
-            <Image src={Social} alt="" />
+            <Image src={Fb} alt="" className="cursor-pointer" />
+            <Image src={Twitter} alt="" className="cursor-pointer" />
+            <Image src={Social} alt="" className="cursor-pointer" />
           </div>
         </div>
       </div>
